@@ -43,6 +43,12 @@
     background-color: #e7e7e9;
 }
 
+hr {
+    border-width: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 #about-me {
     /* background-image: linear-gradient(to bottom, #0a0809, #291522, #451c3a, #55194a, #571c51, #611956, #5e1751, #612252, #813a71, #351125, #200914, #080305);
     background-size: cover;
@@ -65,9 +71,10 @@
 .project-card {
     color: #212529;
     margin: 0 auto;
-    /* background-image: linear-gradient(to bottom, #65f865, #e2acd5); */
+    background-image: linear-gradient(to bottom, #65f865, #e2acd5);
     max-width: 500px;
     min-height: 500px;
+    /* background-color: rgb(211, 125, 211); */
 }
 
 a {
@@ -101,7 +108,7 @@ a:hover {
 }
 
 #phone-number {
-    font-size: 25px;
+    /* font-size: 25px; */
     margin-bottom: 0px;
     color: #212529;
 }
@@ -148,6 +155,10 @@ a:hover {
 
     #phone-number {
         font-size: 18px;
+    }
+
+    .big-text {
+        font-size: 30px;
     }
 }
 
