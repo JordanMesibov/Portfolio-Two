@@ -46,17 +46,17 @@
     background-position: center;
     font-family: 'ZCOOL XiaoWei', serif;
     color: #fff; */
-    background-color: rgb(212, 119, 32);
+    background-image: linear-gradient(to bottom right, #ca8120, #d134aa);
 }
 
 .project-bg {
-    background-color: rgb(57, 154, 172);
+    background-image: linear-gradient(to top, #ee52c7, #e6995a);
 }
 
 .project-card {
     color: #050407;
     margin: 0 auto;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(153, 127, 184) 0%, rgb(141, 126, 223) 90% );
+    background-image: linear-gradient(to bottom, #65f865, #e2acd5);
 }
 
 a {
@@ -72,7 +72,7 @@ a:hover {
     max-height: 300px;
     margin-top: 25px;
     border-style: solid;
-    border-radius: 3px;
+    border-radius: 200px;
 }
 
 .information {
@@ -92,8 +92,8 @@ a:hover {
 }
 
 .contact-me-div {
-    border-style: solid;
-    border-radius: 3px;
+    /* border-style: solid;
+    border-radius: 3px; */
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(153, 127, 184) 0%, rgb(141, 126, 223) 90% );
     color: black;
 }
