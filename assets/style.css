@@ -71,7 +71,7 @@ hr {
 .project-card {
     color: #212529;
     margin: 0 auto;
-    background-image: linear-gradient(to bottom, #88d0da, #a5df97);
+    background-image: linear-gradient(to bottom, #88d0da, #e7f5ab);
     max-width: 500px;
     min-height: 500px;
     /* background-color: rgb(211, 125, 211); */
@@ -104,7 +104,8 @@ a:hover {
 }
 
 .modal-content {
-    background-image: linear-gradient(to top right, #36205a, #971797);
+    /* background-image: linear-gradient(to top right, #36205a, #971797); */
+    background-image: linear-gradient(to bottom, #9bb4eb, #e7e7e9);
 }
 
 #phone-number {
