@@ -39,6 +39,10 @@
     transform: scale(1.1) perspective(1px);
 }
 
+.buffer {
+    background-color: #e7e7e9;
+}
+
 #about-me {
     /* background-image: linear-gradient(to bottom, #0a0809, #291522, #451c3a, #55194a, #571c51, #611956, #5e1751, #612252, #813a71, #351125, #200914, #080305);
     background-size: cover;
@@ -48,20 +52,26 @@
     color: #fff; */
     background-image: linear-gradient(to bottom right, #6b8f4dc2, #5abef8b0);
     /* background-color: rgba(165, 87, 42, 0.767); */
+    background-image: url('./images/computer-contemporary-desk-1036841.jpg');
+    max-height: 630px;
 }
 
 .project-bg {
-    background-image: linear-gradient(to top, #b46153, #e6995a);
+    /* background-image: linear-gradient(to top, #b46153, #e6995a); */
+    background-color: #e7e7e9;
+
 }
 
 .project-card {
-    color: #050407;
+    color: #212529;
     margin: 0 auto;
     background-image: linear-gradient(to bottom, #65f865, #e2acd5);
+    max-width: 500px;
+    min-height: 500px;
 }
 
 a {
-    color: black;
+    color: #212529;
 }
 
 a:hover {
@@ -70,7 +80,7 @@ a:hover {
 }
 
 #profile-pic {
-    max-height: 300px;
+    max-height: 450px;
     margin-top: 25px;
     border-style: solid;
     border-radius: 200px;
@@ -80,8 +90,10 @@ a:hover {
     /* border-style: solid;
     border-radius: 3px;
     padding-top: 5px; */
-    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(153, 127, 184) 0%, rgb(141, 126, 223) 90% ); */
+    /* background-image: url('./images/art-artistic-background-1831234.jpg'); */
     color: black;
+    background-color: #e7e7e9;
+    opacity: 0.8;
 }
 
 .modal-content {
@@ -90,17 +102,19 @@ a:hover {
 
 #phone-number {
     font-size: 25px;
+    margin-bottom: 0px;
+    color: #212529;
 }
 
 .contact-me-div {
     /* border-style: solid;
     border-radius: 3px; */
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(153, 127, 184) 0%, rgb(141, 126, 223) 90% );
-    color: black;
+    background-color: #e7e7e9;
+    color: #212529;
 }
 
 .footer {
-    background-color: black;
+    background-color: #212529;
 }
 
 /*-----------------------------------------------*/
@@ -134,5 +148,13 @@ a:hover {
 
     #phone-number {
         font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .site-pic {
+        width: 900px;
+        
+        height: 600px;
     }
 }
