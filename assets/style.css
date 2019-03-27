@@ -46,11 +46,12 @@
     background-position: center;
     font-family: 'ZCOOL XiaoWei', serif;
     color: #fff; */
-    background-image: linear-gradient(to bottom right, #ca8120, #d134aa);
+    background-image: linear-gradient(to bottom right, #6b8f4dc2, #5abef8b0);
+    /* background-color: rgba(165, 87, 42, 0.767); */
 }
 
 .project-bg {
-    background-image: linear-gradient(to top, #ee52c7, #e6995a);
+    background-image: linear-gradient(to top, #b46153, #e6995a);
 }
 
 .project-card {
