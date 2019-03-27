@@ -65,6 +65,7 @@ hr {
 .project-bg {
     /* background-image: linear-gradient(to top, #b46153, #e6995a); */
     background-color: #e7e7e9;
+    font-family: 'Frank Ruhl Libre', serif;
 
 }
 
@@ -75,6 +76,7 @@ hr {
     max-width: 500px;
     min-height: 500px;
     /* background-color: rgb(211, 125, 211); */
+    font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -101,17 +103,20 @@ a:hover {
     color: black;
     background-color: #e7e7e9;
     opacity: 0.8;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .modal-content {
     /* background-image: linear-gradient(to top right, #36205a, #971797); */
     background-image: linear-gradient(to bottom, #9bb4eb, #e7e7e9);
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 #phone-number {
     /* font-size: 25px; */
     margin-bottom: 0px;
     color: #212529;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .contact-me-div {
@@ -119,10 +124,12 @@ a:hover {
     border-radius: 3px; */
     background-color: #e7e7e9;
     color: #212529;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .footer {
     background-color: #212529;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 /*-----------------------------------------------*/
@@ -170,3 +177,5 @@ a:hover {
         height: 600px;
     }
 }
+
+@media only screen and (min-width: 575px) and (max-width: )
