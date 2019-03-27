@@ -65,7 +65,7 @@
 .project-card {
     color: #212529;
     margin: 0 auto;
-    background-image: linear-gradient(to bottom, #65f865, #e2acd5);
+    /* background-image: linear-gradient(to bottom, #65f865, #e2acd5); */
     max-width: 500px;
     min-height: 500px;
 }

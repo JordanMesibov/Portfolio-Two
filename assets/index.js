@@ -3,7 +3,7 @@ $(document).ready(function () {
     emailFunction = function() {
 
         document.getElementById("email-button").remove();
-
+        
         $("#ContactMe").append("<h3>Thanks for visiting my Portfolio!</h3>");
 
         // myAlert = function() {
@@ -24,7 +24,7 @@ $(document).ready(function () {
             event.preventDefault();
             $('html, body').stop().animate({
                 scrollTop: target.offset().top
-            }, 1600);
+            }, 1200);
         }
     });
 
