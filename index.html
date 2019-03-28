@@ -24,7 +24,7 @@
         <!-- This div will be what a viewer will see upon page load. It will say my name and full stack web dev, and have a button that says "enter" that will scroll the viewer down to the about-me div -->
         <div id="welcome" class="container-fluid">
             <h1>Jordan Mesibov</h1>
-            <h3 id="job-title">Full stack web developer</h3>
+            <h3 id="job-title">Full Stack Web Developer</h3>
             <a href="#hello">
                 <button type="button" class="btn btn-lg text-light btn-outline-light enter-button">
                     Enter
@@ -64,13 +64,13 @@
                     <h5>
                         Hello! My name is Jordan Mesibov, and I am a full stack web
                         developer. I enjoy playing soccer, acoustic guitar, video games,
-                        and watching bad movies.
+                        and watching poorly written movies.
                     </h5>
                     <br />
                     <h5>
                         Recently, I graduated from Coding Bootcamp at Rutgers University
                         where I won the Golden Duck Award. I am looking to apply my new skills
-                        as a developer professionally moving forward.
+                        as a professional developer.
                     </h5>
                     <br />
                     <h5>
@@ -81,8 +81,8 @@
                     <h5>
                         For the past few years, I have worked for the Boys And Girls Clubs
                         of Clifton, NJ and Bridesburg, Philadelphia, PA. I started as a
-                        Youth Development Professional and then became the Athletic
-                        Supervisor.
+                        Youth Development Professional and was promoted to Athletic
+                        Director.
                     </h5>
                 </div>
 
@@ -138,7 +138,9 @@
             <!-- <i class="fas fa-angle-double-down fa-5x"></i> -->
         </div>
         <div class="col-4 text-center py-5">
-            <i class="fas fa-angle-double-down fa-5x"></i>
+            <a href="#destination1">
+                <i class="fas fa-angle-double-down fa-5x p-3"  id="down-arrow-1"></i>
+            </a>
         </div>
         <div class="col-4 text-center py-5">
             <!-- <i class="fas fa-angle-double-down fa-5x"></i> -->
@@ -146,7 +148,7 @@
 
         <div class="container-fluid buffer">
             <div class="row py-2">
-                <div class="col-12">
+                <div class="col-12" id="destination1">
 
                     <div class="text-center">
                         <hr>
@@ -215,6 +217,7 @@
                     </div>
     
                     <div class="container-fluid buffer">
+                            
                             <div class="row pt-5">
                                 <div class="col-12">
                     
@@ -230,7 +233,9 @@
                         <!-- <i class="fas fa-angle-double-down fa-5x"></i> -->
                     </div>
                     <div class="col-4 text-center py-5">
-                        <i class="fas fa-angle-double-down fa-5x"></i>
+                        <a href="#ContactMe">
+                            <i class="fas fa-angle-double-down fa-5x p-3" id="down-arrow-2"></i>
+                        </a>
                     </div>
                     <div class="col-4 text-center py-5">
                         <!-- <i class="fas fa-angle-double-down fa-5x"></i> -->
@@ -253,8 +258,9 @@
     </div> -->
 
     <div class="contact-me-div text-center">
+            <br><br><br>
         <h1 id="ContactMe" class="pt-3 pb-2 big-text">Contact Me</h1>
-
+        <br>
         <a href="mailto:mesibovjordan@gmail.com?Subject=Getting%20In%20Touch" target="_top">
             <button type="button" class="btn btn-outline-dark mt-4 text-center" id="email-button"
                 onclick="setTimeout(emailFunction, 1)" data-toggle="modal" data-target="#exampleModal">
@@ -292,6 +298,7 @@
         </div>
 
         <p id="phone-number" class="pb-4">Phone: 908-616-1431</p>
+        <br><br><br><br><br><br>
     </div>
     <!-- <div class="text-center">
         <br /><br /><br />
@@ -316,7 +323,7 @@
     <div class="footer text-center py-3">
         <a href="#tiptop">
             <button type="button" class="btn btn-lg btn-outline-light">
-                <h3>go up</h3>
+                    <i class="fas fa-angle-double-up fa-3x"></i>
             </button>
         </a>
     </div>
