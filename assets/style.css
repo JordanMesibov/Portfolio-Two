@@ -169,7 +169,7 @@ a:hover {
 
     #profile-pic {
         max-height: 250px;
-        border-radius: 50px;
+        border-radius: 20px;
         /* -moz-transform: rotate(90deg);
         -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
