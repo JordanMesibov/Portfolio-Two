@@ -90,6 +90,7 @@ a:hover {
 
 #profile-pic {
     transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
     max-height: 450px;
     margin-top: 25px;
     border-style: solid;
@@ -167,7 +168,7 @@ a:hover {
 
     #profile-pic {
         max-height: 250px;
-        transform: rotate(90deg);
+        /* transform: rotate(90deg); */
     }
 
     #phone-number {
@@ -196,10 +197,10 @@ a:hover {
     }
 }
 
-@media only screen and (min-width: 1px) and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
     #profile-pic {
         max-height: 250px;
         transform: rotate(90deg);
         -webkit-transform: rotate(90deg);
     }
-}
+} */
