@@ -169,6 +169,7 @@ a:hover {
 
     #profile-pic {
         max-height: 250px;
+        border-radius: 50px;
         /* -moz-transform: rotate(90deg);
         -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
@@ -198,12 +199,6 @@ a:hover {
 @media only screen and (min-width: 1021px) and (max-width: 1123px) {
     .information {
         margin-left: 55px;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    #profile-pic {
-        border-radius: 50px;
     }
 }
 
