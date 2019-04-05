@@ -89,10 +89,11 @@ a:hover {
 }
 
 #profile-pic {
+    transform: rotate(90deg);
     max-height: 450px;
     margin-top: 25px;
     border-style: solid;
-    border-radius: 200px;
+    border-radius: 100px;
 }
 
 .information {
@@ -143,7 +144,7 @@ a:hover {
 /* media queries to create responsive font sizing */
 /*-----------------------------------------------*/
 /* mobile phones */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1020px) {
     h1 {
         font-size: 24px;
     }
@@ -175,13 +176,21 @@ a:hover {
     .big-text {
         font-size: 30px;
     }
+
+    .information {
+        margin-top: 25px;
+    }
 }
 
 @media only screen and (min-width: 769px) {
     .site-pic {
         width: 900px;
-        
         height: 600px;
     }
 }
 
+@media only screen and (min-width: 1021px) and (max-width: 1123px) {
+    .information {
+        margin-left: 55px;
+    }
+}
